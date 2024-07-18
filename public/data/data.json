@@ -1,0 +1,1151 @@
+{
+    "projects": [
+        {
+            "id": "0",
+            "name": "Riding Cities",
+            "description": "Association de passionnés de skateboards. Nous organisons des événements et des compétitions de skateboards dans les villes de France.",
+            "images": [
+                "/images/projects/1/image1.jpg",
+                "/images/projects/1/image2.jpg",
+                "/images/projects/1/image3.jpg"
+            ],
+            "date": "2023-01-01",
+            "task": [
+                {
+                    "id": "0",
+                    "name": "Création de la charte graphique",
+                    "description": "Création de la charte graphique de l'association Riding Cities"
+                },
+                {
+                    "id": "1",
+                    "name": "Création du site web",
+                    "description": "Création du site web de l'association Riding Cities"
+                },
+                {
+                    "id": "2",
+                    "name": "Création de l'application mobile",
+                    "description": "Création de l'application mobile de l'association Riding Cities"
+                }
+            ],
+            "tech":[
+                {
+                    "id": "0",
+                    "name": "HTML",
+                    "description": "HTML est un langage de balisage utilisé pour la création de pages web.",
+                    "image": "/images/tech/html.webp",
+                    "href": "https://developer.mozilla.org/fr/docs/Web/HTML"
+                },
+                {
+                    "id": "1",
+                    "name": "CSS",
+                    "description": "CSS est un langage de style utilisé pour la mise en forme des pages web.",
+                    "image": "/images/tech/css.png",
+                    "href": "https://developer.mozilla.org/fr/docs/Web/CSS"
+                }
+            ]
+        },
+        {
+            "id": "1",
+            "name": "Booki",
+            "description": "Site de réservation de logements pour les vacances",
+            "images": [
+                "/images/projects/2/image1.jpg",
+                "/images/projects/2/image2.jpg",
+                "/images/projects/2/image3.jpg",
+                "/images/projects/2/image4.jpg",
+                "/images/projects/2/image5.jpg",
+                "/images/projects/2/image6.jpg"
+            ],
+            "date":"2023-02-01",
+            "task": [
+                {
+                    "id": "0",
+                    "name": "Task 1",
+                    "description": "Transformer le design Figma en site web"
+                },
+                {
+                    "id": "1",
+                    "name": "Task 2",
+                    "description": "Créer une API pour gérer les réservations"
+                },
+                {
+                    "id": "2",
+                    "name": "Task 3",
+                    "description": "Créer une application mobile pour les utilisateurs"
+                }
+            ],
+            "tech":[
+                {
+                    "id": "0",
+                    "name": "HTML",
+                    "description": "HTML est un langage de balisage utilisé pour la création de pages web.",
+                    "image": "/images/tech/html.webp",
+                    "href": "https://developer.mozilla.org/fr/docs/Web/HTML"
+                },
+                {
+                    "id": "1",
+                    "name": "CSS",
+                    "description": "CSS est un langage de style utilisé pour la mise en forme des pages web.",
+                    "image": "/images/tech/css.png",
+                    "href": "https://developer.mozilla.org/fr/docs/Web/CSS"
+                },
+                {
+                    "id": "2",
+                    "name": "Sass",
+                    "description": "Sass est un préprocesseur CSS qui permet de gagner du temps dans l'écriture du code.",
+                    "image": "/images/tech/sass.jpg",
+                    "href": "https://sass-lang.com/"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "name": "OhMyFood",
+            "description": "Site de réservation de restaurants",
+            "images": [
+                "/images/projects/3/image1.jpg",
+                "/images/projects/3/image2.jpg",
+                "/images/projects/3/image3.jpg",
+                "/images/projects/3/image4.jpg",
+                "/images/projects/3/image5.jpg"
+            ],
+            "date":"2023-03-01",
+            "task": [
+                {
+                    "id": "0",
+                    "name": "Task 1",
+                    "description": "Transformer le design Figma en site web"
+                },
+                {
+                    "id": "1",
+                    "name": "Task 2",
+                    "description": "Créer des animations pour rendre le site plus attractif"
+                },
+                {
+                    "id": "2",
+                    "name": "Task 3",
+                    "description": "Créer une application mobile pour les utilisateurs"
+                }
+            ],
+            "tech":[
+                {
+                    "id": "0",
+                    "name": "HTML",
+                    "description": "HTML est un langage de balisage utilisé pour la création de pages web.",
+                    "image": "/images/tech/html.webp",
+                    "href": "https://developer.mozilla.org/fr/docs/Web/HTML"
+                },
+                {
+                    "id": "1",
+                    "name": "CSS",
+                    "description": "CSS est un langage de style utilisé pour la mise en forme des pages web.",
+                    "image": "/images/tech/css.png",
+                    "href": "https://developer.mozilla.org/fr/docs/Web/CSS"
+                },
+                {
+                    "id": "2",
+                    "name": "Sass",
+                    "description": "Sass est un préprocesseur CSS qui permet de gagner du temps dans l'écriture du code.",
+                    "image": "/images/tech/sass.jpg",
+                    "href": "https://sass-lang.com/"
+                }
+            ],
+            "link": "https://github.com/Lecuyer-Quentin/Ohmyfood",
+            "url": "https://lecuyer-quentin.github.io/Ohmyfood/"
+        },
+        {
+            "id": "3",
+            "name": "Print It",
+            "description": "Site d'impression de photos en ligne",
+            "images": [
+                "/images/projects/4/image1.jpg",
+                "/images/projects/4/image2.jpg",
+                "/images/projects/4/image3.jpg"
+            ],
+            "date":"2023-05-01",
+            "task": [
+                {
+                    "id": "0",
+                    "name": "Task 1",
+                    "description": "Transformer le design Figma en site web"
+                },
+                {
+                    "id": "1",
+                    "name": "Task 2",
+                    "description": "Création d'un carousel pour les photos"
+                },
+                {
+                    "id": "2",
+                    "name": "Task 3",
+                    "description": "Créer une application mobile pour les utilisateurs"
+                }
+            ],
+            "tech":[
+                {
+                    "id": "0",
+                    "name": "HTML",
+                    "description": "HTML est un langage de balisage utilisé pour la création de pages web.",
+                    "image": "/images/tech/html.webp",
+                    "href": "https://developer.mozilla.org/fr/docs/Web/HTML"
+                },
+                {
+                    "id": "1",
+                    "name": "CSS",
+                    "description": "CSS est un langage de style utilisé pour la mise en forme des pages web.",
+                    "image": "/images/tech/css.png",
+                    "href": "https://developer.mozilla.org/fr/docs/Web/CSS"
+                },
+                {
+                    "id": "2",
+                    "name": "JavaScript",
+                    "description": "JavaScript est un langage de programmation utilisé pour rendre les pages web interactives.",
+                    "image": "/images/tech/javascript.jpg",
+                    "href": "https://developer.mozilla.org/fr/docs/Web/JavaScript"
+                }
+            ],
+            "link": "https://github.com/Lecuyer-Quentin/Print-It",
+            "url": "https://lecuyer-quentin.github.io/Print-It/"
+        },
+        {
+            "id": "4",
+            "name": "Sophie Bluel Portfolio",
+            "description": "Portfolio d'une architecte d'intérieur",
+            "images": [
+                "/images/projects/5/image1.jpg",
+                "/images/projects/5/image2.jpg",
+                "/images/projects/5/image3.jpg",
+                "/images/projects/5/image4.jpg",
+                "/images/projects/5/image5.jpg",
+                "/images/projects/5/image6.jpg"
+            ],
+            "date":"2023-06-01",
+            "task": [
+                {
+                    "id": "0",
+                    "name": "Task 1",
+                    "description": "Transformer le design Figma en site web"
+                },
+                {
+                    "id": "1",
+                    "name": "Task 2",
+                    "description": "Mettre en place une selection des projets par catégories"
+                },
+                {
+                    "id": "2",
+                    "name": "Task 3",
+                    "description": "Créer une application mobile pour les utilisateurs"
+                },
+                {
+                    "id": "3",
+                    "name": "Task 4",
+                    "description": "Mettre en place un mode edition pour créer, modifier et supprimer des projets"
+                }
+            ],
+            "tech":[
+                {
+                    "id": "0",
+                    "name": "HTML",
+                    "description": "HTML est un langage de balisage utilisé pour la création de pages web.",
+                    "image": "/images/tech/html.webp",
+                    "href": "https://developer.mozilla.org/fr/docs/Web/HTML"
+                },
+                {
+                    "id": "1",
+                    "name": "CSS",
+                    "description": "CSS est un langage de style utilisé pour la mise en forme des pages web.",
+                    "image": "/images/tech/css.png",
+                    "href": "https://developer.mozilla.org/fr/docs/Web/CSS"
+                },
+                {
+                    "id": "2",
+                    "name": "JavaScript",
+                    "description": "JavaScript est un langage de programmation utilisé pour rendre les pages web interactives.",
+                    "image": "/images/tech/javascript.jpg",
+                    "href": "https://developer.mozilla.org/fr/docs/Web/JavaScript"
+                },
+                {
+                    "id": "3",
+                    "name": "Node.js",
+                    "description": "Node.js est un environnement d'exécution JavaScript côté serveur.",
+                    "image": "/images/tech/node.png",
+                    "href": "https://nodejs.org/fr/"
+                }
+            ],
+            "link": "https://github.com/Lecuyer-Quentin/Portfolio-Sophie-Bluel"
+        },
+        {
+            "id": "5",
+            "name": "Menu Maker by Qwenta",
+            "description": "Gestion d'un projet de développement de site web avec la méthode agile",
+            "images": [
+                "/images/projects/6/image1.jpg",
+                "/images/projects/6/image2.jpg",
+                "/images/projects/6/image3.jpg",
+                "/images/projects/6/image4.jpg",
+                "/images/projects/6/image5.jpg",
+                "/images/projects/6/image6.jpg",
+                "/images/projects/6/image7.jpg",
+                "/images/projects/6/image8.jpg",
+                "/images/projects/6/image9.jpg",
+                "/images/projects/6/image10.jpg",
+                "/images/projects/6/image11.jpg",
+                "/images/projects/6/image12.jpg",
+                "/images/projects/6/image13.jpg"
+            ],
+            "date":"2023-07-01",
+            "task": [
+                {
+                    "id": "0",
+                    "name": "Task 1",
+                    "description": "En tant que chef de projet, organiser le projet avec la méthode agile"
+                },
+                {
+                    "id": "1",
+                    "name": "Task 2",
+                    "description": "Créer un planning pour le projet"
+                },
+                {
+                    "id": "2",
+                    "name": "Task 3",
+                    "description": "Mettre en place un système de gestion de projet"
+                }
+            ],
+            "tech":[
+                {
+                    "id": "0",
+                    "name": "Trello",
+                    "description": "Trello est un outil de gestion de projet en ligne qui permet de collaborer et d'organiser des projets.",
+                    "image": "/images/tech/trello.png",
+                    "href": "https://trello.com/fr"
+                },
+                {
+                    "id": "1",
+                    "name": "Figma",
+                    "description": "Figma est un outil de design d'interface utilisateur basé sur le Web.",
+                    "image": "/images/tech/figma.png",
+                    "href": "https://www.figma.com/"
+                },
+                {
+                    "id": "2",
+                    "name": "Notion",
+                    "description": "Notion est un outil de prise de notes et de gestion de projet.",
+                    "image": "/images/tech/notion.png",
+                    "href": "https://www.notion.so/"
+                }
+            ]
+        },
+        {
+            "id": "6",
+            "name": "Nina Carducci Portfolio",
+            "description": "Amelioration du SEO et de l'accessibilité du site web d'une photographe",
+            "images": [
+                "/images/projects/7/image1.jpg",
+                "/images/projects/7/image2.jpg",
+                "/images/projects/7/image3.jpg"
+            ],
+            "date":"2024-08-01",
+            "task": [
+                {
+                    "id": "0",
+                    "name": "Task 1",
+                    "description": "Améliorer le SEO du site web"
+                },
+                {
+                    "id": "1",
+                    "name": "Task 2",
+                    "description": "Améliorer l'accessibilité du site web"
+                }
+            ],
+            "tech":[
+                {
+                    "id": "0",
+                    "name": "Wave",
+                    "description": "Wave est un outil en ligne qui permet de tester l'accessibilité d'un site web.",
+                    "image": "/images/tech/wave.svg",
+                    "href": "https://wave.webaim.org/"
+                },
+                {
+                    "id": "1",
+                    "name": "Lighthouse",
+                    "description": "Lighthouse est un outil de test de performance et d'accessibilité des sites web.",
+                    "image": "/images/tech/lighthouse.svg",
+                    "href": "https://developers.google.com/web/tools/lighthouse"
+                },
+                {
+                    "id": "2",
+                    "name": "Google Search Console",
+                    "description": "Google Search Console est un outil de suivi de la performance d'un site web.",
+                    "image": "/images/tech/google-search-console.png",
+                    "href": "https://search.google.com/search-console/about"
+                }
+            ],
+            "link": "https://github.com/Lecuyer-Quentin/Nina-Carducci",
+            "url": "https://lecuyer-quentin.github.io/Nina-Carducci/"
+        },
+        {
+            "id": "7",
+            "name": "77events",
+            "description": "Debugger le site d'une agence d'événementiel avec les DevTools et Jest",
+            "images": [
+                "/images/projects/8/image1.jpg",
+                "/images/projects/8/image2.jpg",
+                "/images/projects/8/image3.jpg"
+            ],
+            "date":"2023-09-01",
+            "task": [
+                {
+                    "id": "0",
+                    "name": "Task 1",
+                    "description": "Utiliser les DevTools pour debugger le site"
+                },
+                {
+                    "id": "1",
+                    "name": "Task 2",
+                    "description": "Utiliser Jest pour tester le site"
+                }
+            ],
+            "tech":[
+                {
+                    "id": "0",
+                    "name": "DevTools",
+                    "description": "DevTools est un ensemble d'outils de développement intégrés dans les navigateurs web.",
+                    "image": "/images/tech/devtools.png",
+                    "href": "https://developer.mozilla.org/fr/docs/Tools"
+                },
+                {
+                    "id": "1",
+                    "name": "Jest",
+                    "description": "Jest est un framework de test JavaScript.",
+                    "image": "/images/tech/jest.jpg",
+                    "href": "https://jestjs.io/fr/"
+                }
+            ],
+            "link": "https://github.com/Lecuyer-Quentin/77events",
+            "url": "https://77events-bmnj139ij-lecuyer-quentin.vercel.app/"
+        },
+        {
+            "id": "8",
+            "name": "Argent Bank",
+            "description": "Create a modern banking site with a minimalistic design, Interfaced with a REST API, and focused on routing and state management",
+            "images": [
+                "/images/projects/9/image1.jpg",
+                "/images/projects/9/image2.jpg",
+                "/images/projects/9/image3.jpg"
+            ],
+            "date":"2023-10-01",
+            "task": [
+                {
+                    "id": "0",
+                    "name": "Task 1",
+                    "description": "Créer l’application web complète et responsive avec React et Redux"
+                },
+                {
+                    "id": "1",
+                    "name": "Task 2",
+                    "description": "Optimiser le site web pour la vitesse de chargement"
+                }
+            ],
+            "tech":[
+                {
+                    "id": "0",
+                    "name": "React",
+                    "description": "React est une bibliothèque JavaScript pour la création d'interfaces utilisateur.",
+                    "image": "/images/tech/react.png",
+                    "href": "https://fr.reactjs.org/"
+                },
+                {
+                    "id": "1",
+                    "name": "Node.js",
+                    "description": "Node.js est un environnement d'exécution JavaScript côté serveur.",
+                    "image": "/images/tech/node.png",
+                    "href": "https://nodejs.org/fr/"
+                },
+                {
+                    "id": "2",
+                    "name": "Sass",
+                    "description": "Sass est un préprocesseur CSS qui permet de gagner du temps dans l'écriture du code.",
+                    "image": "/images/tech/sass.jpg",
+                    "href": "https://sass-lang.com/"
+                }
+            ],
+            "link": "https://github.com/Lecuyer-Quentin/ArgentBank",
+            "url": "https://argent-bank-5hgmc7h6s-lecuyer-quentin.vercel.app/"
+        },
+        {
+          "id": "9",
+          "name": "A Little Tiny World",
+          "description": "Site de vente de materiel et service de couture",
+          "images": [
+              "/images/projects/10/img_1.jpg",
+              "/images/projects/10/img_2.jpg",
+              "/images/projects/10/img_3.jpg",
+              "/images/projects/10/img_4.jpg",
+              "/images/projects/10/img_5.jpg",
+              "/images/projects/10/img_6.jpg",
+              "/images/projects/10/img_7.jpg"
+          ],
+          "date":"2024-04-01",
+          "task": [
+              {
+                  "id": "0",
+                  "name": "Modélisation Merise",
+                  "description": "Modélisation de la base de données avec la méthode Merise"
+              },
+              {
+                  "id": "1",
+                  "name": "Création de la base de données MySql",
+                  "description": "Création de la base de données MySql pour le site"
+              },
+              {
+                  "id": "2",
+                  "name": "Création du site web",
+                  "description": "Création du site web de vente de materiel et service de couture"
+              }
+            ],
+            "tech":[
+                {
+                    "id": "0",
+                    "name": "Merise",
+                    "description": "Merise est une méthode de modélisation de données.",
+                    "image": "/images/tech/merise.png",
+                    "href": "https://fr.wikipedia.org/wiki/Merise"
+                },
+                {
+                    "id": "1",
+                    "name": "MySql",
+                    "description": "MySql est un système de gestion de base de données relationnelles.",
+                    "image": "/images/tech/mysql.png",
+                    "href": "https://www.mysql.com/fr/"
+                },
+                {
+                    "id": "2",
+                    "name": "PHP",
+                    "description": "PHP est un langage de programmation côté serveur.",
+                    "image": "/images/tech/php.png",
+                    "href": "https://www.php.net/"
+                }
+            ],
+            "link": "https://alittletinyworld.go.yj.fr/A_Little_Tiny_World/"
+        }
+    ],
+
+    "services":[
+        {
+          "id": "0",
+          "name": "Web Development",
+          "description": "Create a website from scratch",
+          "images": ["/images/services/dev_img.jpg"],
+          "quotes": [
+              {
+              "id": "0",
+              "content": "The best way to predict the future is to create it.",
+              "author": "Peter Drucker"
+              },
+              {
+              "id": "1",
+              "content": "The only way to do great work is to love what you do.",
+              "author": "Steve Jobs"
+              },
+              {
+              "id": "2",
+              "content": "Toute technologie suffisamment avancée est indiscernable de la magie.",
+              "author": "Arthur C. Clarke"
+              },
+              {
+              "id": "3",
+              "content": "Mesurer la progression du développement d’un logiciel à l’aune de ses lignes de code revient à mesurer la progression de la construction d’un avion à l’aune de son poids.",
+              "author": "Bill Gates"
+              }
+          ],
+          "content": [
+              {
+                "id": "0",
+                "title": "Présentation de Mon Portfolio de Développement Web",
+                "paraph": [
+                  {
+                    "id": "0",
+                    "title": "Introduction",
+                    "detail": [
+                      {
+                        "id": "0",
+                        "title": "Bienvenue",
+                        "description": "Bienvenue sur mon portfolio ! En tant que développeur web senior avec plus de dix ans d'expérience dans le domaine, je me spécialise dans la création de solutions web innovantes et personnalisées. Mon objectif est de transformer vos idées en applications web performantes et intuitives qui répondent à vos besoins spécifiques"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "1",
+                "title": "Services de Développement",
+                "paraph": [
+                  {
+                    "id": "0",
+                    "title": "Sites Web Personnalisés",
+                    "detail": [
+                      {
+                        "id": "0",
+                        "title": "Description",
+                        "description": "Des sites web sur mesure qui reflètent l'identité et les objectifs de votre entreprise. Chaque projet est unique et traité avec soin"
+                      },
+                      {
+                        "id": "1",
+                        "title": "Services Inclus",
+                        "description": "Conception et prototypage. Développement frontend et backend. Optimisation pour les moteurs de recherche (SEO). Maintenance et mises à jour régulières"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "1",
+                    "title": "Applications Web Interactives",
+                    "detail": [
+                      {
+                        "id": "0",
+                        "title": "Description",
+                        "description": "Des applications web interactives qui offrent des expériences utilisateur exceptionnelles. Que vous ayez besoin d'une application de gestion, d'un portail client ou d'un outil de collaboration, je peux vous aider à le réaliser"
+                      },
+                      {
+                        "id": "1",
+                        "title": "Services Inclus",
+                        "description": "Analyse des besoins et planification. Développement sur mesure avec les technologies modernes (React, PHP, Nextjs). Intégration avec les bases de données et les API. Tests et assurance qualité. Support post-déploiement"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "2",
+                    "title": "E-commerce",
+                    "detail": [
+                      {
+                        "id": "0",
+                        "title": "Description",
+                        "description": "Des plateformes e-commerce robustes et sécurisées qui facilitent la gestion de votre boutique en ligne et offrent une expérience d'achat fluide à vos clients."
+                      },
+                      {
+                        "id": "1",
+                        "title": "Services Inclus",
+                        "description": "Développement de boutiques en ligne. Intégration de systèmes de paiement sécurisés. Gestion des produits et des stocks. Optimisation de la performance. Stratégies de marketing en ligne et SEO"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "3",
+                    "title": "Développement Mobile",
+                    "detail": [
+                      {
+                        "id": "0",
+                        "title": "Description",
+                        "description": "Des solutions de développement mobile pour les applications web progressives (PWA) qui offrent des fonctionnalités similaires aux applications natives tout en étant accessibles via un navigateur."
+                      },
+                      {
+                        "id": "1",
+                        "title": "Services Inclus",
+                        "description": "Développement de PWA. Responsive design pour une compatibilité mobile optimale. Intégration avec les fonctionnalités natives. Tests sur divers appareils et navigateurs. Maintenance et mises à jour continues"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "4",
+                    "title": "Audit et Optimisation de Performance",
+                    "detail": [
+                      {
+                        "id": "0",
+                        "title": "Description",
+                        "description": "Des audits complets de votre site web ou application pour identifier les opportunités d'amélioration en termes de performance, de sécurité et d'expérience utilisateur."
+                      },
+                      {
+                        "id": "1",
+                        "title": "Services Inclus",
+                        "description": "Audit de performance et optimisation. Analyse de sécurité et recommandations. Amélioration de l'expérience utilisateur. Rapport détaillé avec des actions concrètes"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "5",
+                    "title": "Maintenance et Support Technique",
+                    "detail": [
+                      {
+                        "id": "0",
+                        "title": "Description",
+                        "description": "Des services de maintenance continue pour garantir que votre site web ou application fonctionne sans interruption et reste à jour avec les dernières technologies et pratiques de sécurité."
+                      },
+                      {
+                        "id": "1",
+                        "title": "Services Inclus",
+                        "description": "Surveillance et gestion des serveurs. Mise à jour des logiciels et des plugins. Sauvegardes régulières. Support technique et résolution de problèmes. Améliorations continues basées sur les retours utilisateurs"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "2",
+                "title": "Technologies et Outils",
+                "paraph": [
+                  {
+                    "id": "0",
+                    "detail": [
+                      {
+                        "id": "0",
+                        "title": "Frontend",
+                        "description": "JavaScript. React. Next.js. PHP"
+                      },
+                      {
+                        "id": "1",
+                        "title": "Backend",
+                        "description": "Node.js. PHP."
+                      },
+                      {
+                        "id": "2",
+                        "title": "Bases de données",
+                        "description": "MySQL. PostgreSQL. MongoDB."
+                      },
+                      {
+                        "id": "3",
+                        "title": "Outils DevOps",
+                        "description": "Docker. Git"
+                      }
+                    ]
+                  }
+                ]
+              }
+          ]
+        },
+        {
+          "id": "1",
+          "name": "Design UX/UI",
+          "description": "Design a website or mobile app from scratch",
+          "images": ["/images/services/user_img.jpg"],
+          "quotes": [
+              {
+              "id": "0",
+              "content": "L’essence d’un projet, c’est l’harmonie parfaite entre l’esthétique, l’utile et le juste.",
+              "author": "Frank Lloyd Wright"
+              },
+              {
+              "id": "1",
+              "content": "Si vous pouvez vraiment définir le problème, vous avez également trouvé la solution.",
+              "author": "Chip Kidd"
+              },
+              {
+              "id": "2",
+              "content": "Créer un design numérique, c’est comme peindre, sauf que l’encre ne sèche jamais.",
+              "author": "Neville Brody"
+              },
+              {
+              "id": "3",
+              "content": "Mon but est d'atteindre deux choses: la simplicité et la clarté. Les bons design naissent de ces deux éléments.",
+              "author": "Lindon Leader"
+              }
+          ],
+          "content": [
+              {
+                "id": "0",
+                "title": "Présentation de Mon Portfolio de Développement Web",
+                "paraph": [
+                  {
+                    "id": "0",
+                    "title": "Introduction",
+                    "detail": [
+                      {
+                        "id": "0",
+                        "title": "Bienvenue",
+                        "description": "Bienvenue sur mon portfolio ! En tant que développeur web senior avec plus de dix ans d'expérience dans le domaine, je me spécialise dans la création de solutions web innovantes et personnalisées. Mon objectif est de transformer vos idées en applications web performantes et intuitives qui répondent à vos besoins spécifiques."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "1",
+                "title": "Avantages du Design Centré sur l'Utilisateur",
+                "paraph": [
+                  {
+                    "id": "0",
+                    "title": "Pour les Particuliers",
+                    "detail": [
+                      {
+                        "id": "0",
+                        "title": "Simplicité et Intuitivité",
+                        "description": "Des interfaces faciles à comprendre et à utiliser, réduisant la courbe d'apprentissage."
+                      },
+                      {
+                        "id": "1",
+                        "title": "Satisfaction et Engagement",
+                        "description": "Une expérience positive augmente la satisfaction et encourage une utilisation répétée."
+                      },
+                      {
+                        "id": "2",
+                        "title": "Accessibilité",
+                        "description": "Des designs qui prennent en compte les différents besoins des utilisateurs, y compris ceux ayant des handicaps."
+                      }
+                    ]
+                  },
+                  {
+                    "id": "1",
+                    "title": "Pour les Entreprises",
+                    "detail": [
+                      {
+                        "id": "0",
+                        "title": "Fidélisation des Clients",
+                        "description": "Un design agréable et fonctionnel retient les utilisateurs et les incite à revenir."
+                      },
+                      {
+                        "id": "1",
+                        "title": "Conversion Améliorée",
+                        "description": "Des interfaces bien conçues optimisent le parcours utilisateur, augmentant les taux de conversion."
+                      },
+                      {
+                        "id": "2",
+                        "title": "Réduction des Coûts de Support",
+                        "description": "Des applications intuitives réduisent la nécessité d'assistance client et de formation."
+                      },
+                      {
+                        "id": "3",
+                        "title": "Réputation de Marque",
+                        "description": "Une bonne expérience utilisateur renforce la perception positive de la marque."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "2",
+                "title": "Bonnes Pratiques du Design UX/UI",
+                "paraph": [
+                  {
+                    "id": "0",
+                    "title": "Pour les Particuliers",
+                    "detail": [
+                      {
+                        "id": "0",
+                        "title": "Retour d'Information",
+                        "description": "Solliciter et fournir des retours d'information pour améliorer continuellement l'expérience utilisateur."
+                      },
+                      {
+                        "id": "1",
+                        "title": "Tests Utilisateurs",
+                        "description": "Participer à des tests utilisateurs pour aider les designers à comprendre les besoins réels."
+                      },
+                      {
+                        "id": "2",
+                        "title": "Feedback Constructif",
+                        "description": "Donner des commentaires constructifs sur les applications et interfaces utilisées."
+                      }
+                    ]
+                  },
+                  {
+                    "id": "1",
+                    "title": "Pour les Entreprises",
+                    "detail": [
+                      {
+                        "id": "0",
+                        "title": "Recherche Utilisateur",
+                        "description": "Conduire des recherches approfondies pour comprendre les besoins, comportements et attentes des utilisateurs."
+                      },
+                      {
+                        "id": "1",
+                        "title": "Prototypage et Tests",
+                        "description": "Créer des prototypes et les tester auprès d'utilisateurs réels pour valider les concepts."
+                      },
+                      {
+                        "id": "2",
+                        "title": "Conception Itérative",
+                        "description": "Adopter une approche itérative, améliorant continuellement le design basé sur les retours utilisateurs."
+                      },
+                      {
+                        "id": "3",
+                        "title": "Accessibilité",
+                        "description": "S'assurer que les interfaces sont accessibles à tous les utilisateurs, y compris ceux avec des handicaps."
+                      },
+                      {
+                        "id": "4",
+                        "title": "Consistance",
+                        "description": "Maintenir une consistance visuelle et fonctionnelle à travers toutes les plateformes et appareils."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "3",
+                "title": "Méthodes UX/UI pour Développeurs et Designers",
+                "paraph": [
+                  {
+                    "id": "0",
+                    "detail": [
+                      {
+                        "id": "0",
+                        "title": "Personas",
+                        "description": "Créer des personas pour représenter les différents types d'utilisateurs et guider les décisions de design."
+                      },
+                      {
+                        "id": "1",
+                        "title": "Scénarios et User Stories",
+                        "description": "Développer des scénarios et des user stories pour comprendre comment les utilisateurs interagissent avec le produit."
+                      },
+                      {
+                        "id": "2",
+                        "title": "Wireframes et Mockups",
+                        "description": "Utiliser des wireframes et des mockups pour visualiser et tester les idées de design avant de les implémenter."
+                      },
+                      {
+                        "id": "3",
+                        "title": "Tests d'Utilisabilité",
+                        "description": "Effectuer des tests d'utilisabilité réguliers pour identifier les points de friction et les opportunités d'amélioration."
+                      },
+                      {
+                        "id": "4",
+                        "title": "Design System",
+                        "description": "Créer et maintenir un design system pour assurer la consistance et l'efficacité du design à travers différents projets."
+                      },
+                      {
+                        "id": "5",
+                        "title": "Feedback Continu",
+                        "description": "Intégrer des mécanismes de feedback pour recueillir les impressions des utilisateurs en temps réel et ajuster le design en conséquence."
+                      }
+                    ]
+                  }
+                ]
+              }
+          ]
+        },
+        {
+            "id": "2",
+            "name": "Cybersécurité",
+            "description": "Sécuriser vos données et votre site web",
+            "images": ["/images/services/cyber_img.jpg"],
+            "quotes": [
+              {
+              "id": "0",
+              "content": "Il n'existe que deux types d'entreprises dans le monde : celles qui ont été piratées et le savent, et celles qui ont été piratées et ne le savent pas.",
+              "author": "Ted Schlein"
+              },
+              {
+              "id": "1",
+              "content": " Une faille de sécurité n’est pas une catastrophe à elle seule, mais une mauvaise gestion de celle-ci en est une. ",
+              "author": "Serene Davis"
+              },
+              {
+              "id": "2",
+              "content": "Le monde étant de plus en plus interconnecté, chacun partage la responsabilité de sécuriser le cyberespace. ",
+              "author": "Newton Lee"
+              },
+              {
+              "id": "3",
+              "content": "Le maillon le plus faible de la chaîne de sécurité est l’élément humain.",
+              "author": "Kevin Mitnick"
+              }
+            ],
+            "content":[
+              {
+                "id": "0",
+                "title": "Présentation de Mon Portfolio de Développement Web",
+                "paraph": [
+                  {
+                    "id": "0",
+                    "title": "Introduction",
+                    "detail": [
+                      {
+                        "id": "0",
+                        "title": "Bienvenue",
+                        "description": "Bienvenue sur mon portfolio ! En tant que développeur web senior avec plus de dix ans d'expérience dans le domaine, je me spécialise dans la création de solutions web innovantes et personnalisées. Mon objectif est de transformer vos idées en applications web performantes et intuitives qui répondent à vos besoins spécifiques."
+                      }
+                    ]
+                  }
+                ]
+              },
+                {
+                    "id":"1",
+                    "title": "Avantages de la Cybersécurité",
+                    "paraph":[
+                        {
+                            "id":"0",
+                            "title": "Pour les Particuliers",
+                            "detail":[
+                                {
+                                    "id":"0",
+                                    "title": "Protection des données personnelles",
+                                    "description": "Empêcher l'accès non autorisé à des informations sensibles comme les numéros de carte de crédit, les informations de compte bancaire et les données personnelles."
+                                },
+                                {
+                                    "id":"1",
+                                    "title": "Prévention des Fraudes",
+                                    "description": "Éviter les fraudes en ligne et le vol d'identité."
+                                },
+                                {
+                                    "id":"2",
+                                    "title": "Tranquillité d'esprit",
+                                    "description": "Avoir confiance en la sécurité de ses appareils et de ses transactions en ligne."
+                                }
+                            ]
+                        },
+                        {
+                            "id":"1",
+                            "title": "Pour les Entreprises",
+                            "detail":[
+                                {
+                                    "id":"0",
+                                    "title": "Protection des Données Clients",
+                                    "description": "Protéger les données clients contre les cyberattaques et les fuites de données."
+                                },
+                                {
+                                    "id":"1",
+                                    "title": "Protection de la Réputation",
+                                    "description": "Éviter les atteintes à la réputation de l'entreprise en cas de violation de données."
+                                },
+                                {
+                                    "id":"2",
+                                    "title": "Conformité aux Normes de Sécurité",
+                                    "description": "Respecter les normes de sécurité et les réglementations en vigueur pour protéger les données des clients."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id":"2",
+                    "title": "Bonnes Pratiques de Cybersécurité",
+                    "paraph":[
+                        {
+                            "id":"0",
+                            "title": "Pour les Particuliers",
+                            "detail":[
+                                { "id": "0", "title": "Utilisation de Mots de Passe Sécurisés", "description": "Créer des mots de passe complexes et uniques pour chaque compte." },
+                                { "id": "1", "title": "Authentification à Deux Facteurs (2FA)", "description": "Activer la 2FA pour ajouter une couche de sécurité supplémentaire." },
+                                { "id": "2", "title": "Mises à Jour Régulières", "description": "Maintenir à jour les logiciels, systèmes d'exploitation et applications pour corriger les vulnérabilités." }, 
+                                { "id": "3", "title": "Prudence avec les Emails", "description": "Être vigilant face aux emails de phishing et ne pas cliquer sur des liens ou pièces jointes suspects." }, 
+                                { "id": "4", "title": "Antivirus et Pare-feu", "description": "Installer et maintenir à jour des logiciels antivirus et pare-feu pour protéger contre les menaces." } 
+                            ] 
+                        }, 
+                        { 
+                            "id": "1", 
+                            "title": "Pour les Entreprises", 
+                            "detail": [
+                                 { "id": "0", "title": "Formation des Employés", "description": "Sensibiliser les employés aux risques de sécurité et aux bonnes pratiques à adopter." }, 
+                                 { "id": "1", "title": "Politiques de Sécurité", "description": "Établir des politiques de sécurité claires et les faire respecter par tous les employés." }, 
+                                 { "id": "2", "title": "Sauvegarde Régulière des Données", "description": "Effectuer des sauvegardes régulières des données pour éviter les pertes en cas d'incident." }, 
+                                 { "id": "3", "title": "Surveillance du Réseau", "description": "Surveiller le réseau pour détecter les activités suspectes et les intrusions." }, 
+                                 { "id": "4", "title": "Gestion des Accès", "description": "Limiter les accès aux données sensibles et surveiller les activités des utilisateurs." } 
+                                ] 
+                        } 
+                    ] 
+                },
+                { 
+                    "id":"3", 
+                    "title": "Méthodes de Cybersécurité pour Développeurs", 
+                    "paraph":[ 
+                        { 
+                            "id":"0", 
+                            "title": "Développement Sécurisé (Secure Coding)", 
+                            "detail": [
+                                { "id":"0", "title": "Validation des Entrées", "description": "Valider et filtrer les entrées utilisateur pour éviter les attaques par injection de code." }, 
+                                { "id":"1", "title": "Protection contre les Failles de Sécurité", "description": "Utiliser des frameworks sécurisés et des bonnes pratiques de développement pour éviter les failles de sécurité." }, 
+                                { "id":"2", "title": "Gestion des Erreurs", "description": "Gérer les erreurs de manière sécurisée pour ne pas exposer d'informations sensibles." }, 
+                                { "id":"3", "title": "Sécurité des Sessions", "description": "Utiliser des mécanismes de gestion de session sécurisés pour protéger les utilisateurs contre les attaques de session." }, 
+                                { "id":"4", "title": "Protection contre les Attaques XSS et CSRF", "description": "Mettre en place des protections contre les attaques XSS et CSRF pour protéger les utilisateurs contre les attaques de scripts intersites." }
+                            ] 
+                        }, 
+                        { 
+                            "id":"1", 
+                            "title": "Revue de Code (Code Review)", 
+                            "detail": [
+                                { "id":"0", "title": "Analyse du Code", "description": "Analyser le code pour détecter les vulnérabilités et les erreurs de sécurité." }, 
+                                { "id":"1", "title": "Tests de Sécurité", "description": "Intégrer des tests de sécurité automatisés, comme les tests de pénétration et les analyses statiques de code." }, 
+                                { "id":"2", "title": "Chiffrement", "description": "Utiliser des protocoles de chiffrement robustes pour protéger les données en transit et au repos." }, 
+                                { "id":"3", "title": "Gestion des Dépendances", "description": "Tenir à jour les bibliothèques et frameworks utilisés et surveiller les vulnérabilités connues." }
+                            ]
+                        }, 
+                        { 
+                            "id":"2", 
+                            "title": "Tests de Sécurité", 
+                            "detail": [
+                                { "id":"0", "title": "Tests de Pénétration", "description": "Simuler des attaques pour identifier les vulnérabilités et les failles de sécurité." }, 
+                                { "id":"1", "title": "Tests d'Intrusion", "description": "Tester la sécurité du système en simulant des attaques réelles pour évaluer sa résistance." }, 
+                                { "id":"2", "title": "Tests de Sécurité Automatisés", "description": "Utiliser des outils automatisés pour détecter les vulnérabilités et les erreurs de sécurité." }, 
+                                { "id":"3", "title": "Tests de Charge", "description": "Tester la capacité du système à gérer un grand nombre d'utilisateurs et de requêtes pour éviter les défaillances." }
+                            ] 
+                        }, 
+                        { 
+                            "id":"3", 
+                            "title": "Chiffrement", 
+                            "detail": [
+                                { "id":"0", "title": "Chiffrement des Données", "description": "Chiffrer les données sensibles pour les protéger contre les accès non autorisés." }, 
+                                { "id":"1", "title": "Chiffrement des Communications", "description": "Utiliser des protocoles de chiffrement pour sécuriser les communications entre les clients et les serveurs." }, 
+                                { "id":"2", "title": "Chiffrement des Mots de Passe", "description": "Chiffrer les mots de passe avant de les stocker dans la base de données pour éviter les fuites de données." }, 
+                                { "id":"3", "title": "Chiffrement des Fichiers", "description": "Chiffrer les fichiers sensibles pour protéger leur contenu contre les accès non autorisés." }
+                            ]
+                        }, 
+                        { 
+                            "id":"4", 
+                            "title": "Gestion des Dépendances", 
+                            "detail": [
+                                { "id":"0", "title": "Mises à Jour Régulières", "description": "Maintenir à jour les dépendances pour corriger les vulnérabilités connues." }, 
+                                { "id":"1", "title": "Analyse des Dépendances", "description": "Analyser les dépendances pour détecter les vulnérabilités et les failles de sécurité." }, 
+                                { "id":"2", "title": "Gestion des Licences", "description": "Vérifier les licences des dépendances pour respecter les obligations légales et éviter les problèmes de conformité." }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+
+    "formations":[
+      {
+        "id": "0",
+        "name": "Bac Pro Systèmes Numériques",
+        "school": "Lycée Professionnel",
+        "year": "2008",
+        "image": "/images/formations/amu.png"
+      },
+      {
+        "id": "1",
+        "name": "DAEU Littéraire",
+        "school": "Université d'Aix-Marseille",
+        "year": "2009",
+        "image": "/images/formations/amu.png"
+      },
+      {
+        "id": "2",
+        "name": "Licence d'Histoire",
+        "school": "Université d'Aix-Marseille",
+        "year": "2012",
+        "image": "/images/formations/amu.png"
+      },
+      {
+        "id": "3",
+        "name": "Préparation Militaire Supérieure",
+        "school": "68e Régiment d'Artillerie d'Afrique",
+        "year": "2012",
+        "image": "/images/formations/68raa.jpeg"
+      },
+      {
+        "id": "4",
+        "name": "Intégrateur Web",
+        "school": "OpenClassrooms",
+        "year": "2023",
+        "image": "/images/formations/openclas.png"
+      },
+      {
+        "id": "5",
+        "name": "Développeur Web",
+        "school": "Conservatoire National des Arts et Métiers",
+        "year": "En cours",
+        "image": "/images/formations/cnam.jpeg"
+      },
+      {
+        "id": "6",
+        "name": "UX Design",
+        "school": "Google Career Certificate",
+        "year": "En cours",
+        "image": "/images/formations/gccuxd.webp"
+      },
+      {
+        "id": "7",
+        "name": "Cybersecurity",
+        "school": "Google Career Certificate",
+        "year": "En cours",
+        "image": "/images/formations/gccc.webp"
+      }
+    ]
+}
