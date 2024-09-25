@@ -2,6 +2,7 @@ import CardModel, { CardProps } from "./Card";
 import MenuModel from "./Menu";
 import Title from "../components/title";
 import Quote from "../components/quote";
+import Wave from "../components/wave";
 
 export interface ServiceProps {
     id: number;
@@ -75,48 +76,37 @@ export default class ServiceModel {
 
     private renderParaph() {
        return this.props.content?.slice(1).map((content: { id: number, title: string, paraph: { id: number, title: string, detail: { id: number, title: string, description: string }[] }[] }) => (
-            <section id={content.id.toString()} key={content.id} className="w-full flex flex-col items-center justify-center border-2 border-black">
+            <section id={content.id.toString()} key={content.id} className="w-full flex flex-col items-center justify-center">
 
               <Title title={content.title} size="text-3xl" />
       
-              <div className="w-full flex flex-row flex-wrap items-center justify-center border-2 border-green-500">
+              <div className="w-full flex flex-row flex-wrap items-center justify-center">
                 {content.paraph?.map((paraph: { id: number, title: string, detail: { id: number, title: string, description: string }[] }) => (
                   <>
-                    {this.props.quotes && (<Quote id={this.props.quotes[paraph.id]?.id} content={this.props.quotes[paraph.id]?.content} author={this.props.quotes[paraph.id]?.author} color="#000" />)}
+                    {this.props.quotes && (<Quote id={this.props.quotes[content.id]?.id} content={this.props.quotes[paraph.id]?.content} author={this.props.quotes[paraph.id]?.author} color="#000" />)}
 
-                    <article id={paraph.id.toString()} key={paraph.id} className="flex flex-col items-center justify-center w-full gap-4 border-2 border-red-500">
-                        <h3 className="text-2xl font-bold text-left hidden md:flex">{paraph.title}</h3>
-                        <div className="md:hidden">
-                          {new CardModel({
-                            id: paraph.id.toString(),
-                            name: paraph.title,
-                            description: [
-                                paraph.detail[0]?.description,
-                                paraph.detail[1]?.description
-                            ],
-                            images: [],
-                            href: '#' + paraph.id,
-                          } as CardProps).card_service_details_xs()}
-                        </div>
-
+                    <article id={paraph.id.toString()} key={paraph.id} className="relative flex flex-col items-center justify-center w-full gap-4">
+                        <span className="w-[100%] mb-10 ">
+                          <Title title={paraph.title ? `${paraph.title}` : `${content.title}` } size="text-2xl" />
+                        </span>
                       
-                        <div className="flex flex-col items-center justify-end gap-4 border-2 border-blue-500">
-                            {paraph?.detail.map((detail: { id: number, title: string, description: string }) => (
-                                <>
-                                  {new CardModel({
-                                    id : detail.id.toString(),
-                                    name: detail.title,
-                                    description: [
-                                      paraph.detail[0]?.description,
-                                      paraph.detail[1]?.description
-                                    ]
-                                  } as CardProps
-                                  ).card_service_details()}
-                                </>
-                            ))}
+                        <div className="mb-10 lg:mb-20 flex flex-col md:flex-row md:items-start items-center justify-center gap-4 w-full flex-wrap">
+                        {paraph?.detail.map((detail: { id: number, title: string, description: string }) => (
+                            new CardModel({
+                                id: detail.id.toString(),
+                                name: detail.title,
+                                description: detail.description,
+                                images: [],
+                                href: '#' + detail.id,
+                            } as CardProps).card_service_details()
+                        ))}
                         </div>
-                      
+                        
+                        <span className="w-full absolute bottom-0">
+                          <Wave />
+                        </span>
                     </article>
+                   
                   </>
                 ))}
               </div>
@@ -127,12 +117,10 @@ export default class ServiceModel {
     renderService_details() {
         return (
             <>
-            <span className="z-20 w-full flex flex-row items-center justify-start">
+            <span className="z-20 mt-5 w-full flex flex-row items-center justify-start">
                 {this.renderMenu()}
               </span>
-              <Title title={this.props.name} size="text-4xl" image={this.props.images[0]} />
-              
-              {/* {this.renderIntro()} */}
+              <Title title={this.props.name} size="text-4xl" image={this.props.images[0]} />              
               {this.renderParaph()}  
             </>
         );
