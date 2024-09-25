@@ -54,7 +54,7 @@ export default class CardModel{
     }
     card_md() {
         return (
-            <Card className="relative lg:w-[36rem] w-[18rem] h-[22rem] shadow-xl shadow-stone-950">
+            <Card className="group relative lg:w-[36rem] w-[18rem] h-[22rem] shadow-xl shadow-stone-950">
                 <CardHeader className="z-10">
                     <CardTitle>{this.props.name}</CardTitle>
                 </CardHeader>
@@ -149,39 +149,44 @@ export default class CardModel{
             </Link>
     } 
     card_service_details() {
-        const first = this.props.description && this.props.description[0];
-        const second = this.props.description && this.props.description[1];
-
-
+        const gradient = `linear-gradient(60deg, #7747FF 0%, #03B2E1 20%, #7747FF 110%)`;
+        const descriptions = Array.isArray(this.props.description) ? this.props.description.join('.').split('.') : this.props.description?.split('.');
         return (
-            <Card className="group bg-black bg-opacity-10 card_service w-[15rem] h-[15rem] flex flex-col items-start justify-between">
-                {/*
-                <CardHeader className="h-[90%] group-hover:h-[10%] transition-all duration-300 ease-in-out">
-                    <CardTitle>{this.props.name}</CardTitle>
+            <Card 
+            className="group shadow-2xl w-[20rem] md:w-[22rem] xl:w-[32rem] h-full flex flex-col items-center justify-center">
+                <CardHeader 
+                    className="w-full text-center rounded-t-md"
+                    style={{background: gradient}}>
+                    <CardTitle className="text-2xl">
+                        {this.props.name}
+                    </CardTitle>
                 </CardHeader>
-                */}
-                
-                <CardContent className="h-full
-                 m-2 bg-white font-bold rounded-md flex flex-col items-center justify-center">
-                    <CardDescription className="">
+                <CardContent className="h-full w-full flex flex-col items-center justify-center">
+                    <CardDescription className="text-xl font-bold text-center pt-10">
+                        {descriptions?.map((item, index) => (
+                            <>
+                            <span key={index}>{item}</span><br /><br />
+                            </>
+                        ))}
                     </CardDescription>
                 </CardContent>
             </Card>
         );
     }
+
+    // not use
     card_service_details_xs() {
+        const gradient = `linear-gradient(60deg, #7747FF 0%, #03B2E1 20%, #7747FF 110%)`;
         const first = this.props.description && this.props.description[0];
         const second = this.props.description && this.props.description[1];
         return (
-            <Card className="group bg-black bg-opacity-10 card_service w-100 md:w-[40rem] h-[20rem] flex flex-col items-center justify-center">
-            <CardHeader className="h-[30%] 
-            
-            transition-all duration-300 ease-in-out
-             flex flex-row items-center justify-center w-full text-center">
+            <Card className="group shadow-2xl w-100 md:w-[40rem] h-[20rem] flex flex-col items-center justify-center">
+            <CardHeader style={{background: gradient}}
+                        className="h-[30%] rounded-t-md flex flex-row items-center justify-center w-full text-center">
                 <CardTitle>{this.props.name}</CardTitle>
             </CardHeader>
             <CardContent className="relative h-[70%] w-full bg-white font-bold rounded-md flex flex-col items-center justify-center">
-                <CardDescription className="text-md text-center overflow-hidden overflow-ellipsis line-clamp-6 transition-all duration-300 ease-in-out group-hover:opacity-0
+                <CardDescription className="text-md pt-4 text-center overflow-hidden overflow-ellipsis line-clamp-6 transition-all duration-300 ease-in-out group-hover:opacity-0
                     transform group-hover:translate-x-28 
                 ">
                     {first?.split('.').map((item, index) => (
@@ -190,7 +195,7 @@ export default class CardModel{
                         </>
                     ))}
                 </CardDescription>
-                <CardDescription className="absolute w-full h-full flex flex-col items-center justify-center opacity-0 transition-all duration-300 ease-in-out group-hover:opacity-100
+                <CardDescription className="absolute pt-8 w-full h-full flex flex-col items-center justify-center opacity-0 transition-all duration-300 ease-in-out group-hover:opacity-100
                 transform -translate-x-32 group-hover:translate-x-0
                 ">
                     {second?.split('.').map((item, index) => (
