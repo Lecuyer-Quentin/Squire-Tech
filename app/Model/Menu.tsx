@@ -29,7 +29,7 @@ class MenuModel {
                         ))}
                     </NavigationMenuTrigger>
                         <NavigationMenuContent>
-                            <ul className="flex flex-row items-center justify-center flex-wrap z-50 gap-4 p-2">
+                            <ul className="flex flex-row items-center justify-center flex-wrap z-50 gap-4 p-2 ">
                                 {menu.content.map((content) => (
                                         <NavigationMenuLink key={content.id} href={content.href}>
                                         {new CardModel({
