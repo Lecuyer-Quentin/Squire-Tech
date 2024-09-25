@@ -2,7 +2,7 @@ import Projet, { ProjetProps } from '../Model/Projet';
 import Service, { ServiceProps } from '../Model/Service';
 import Formation, { FormationProps } from '../Model/Formation';
 
-const RACINE_SITE = 'https://squire-tech.vercel.app'
+const RACINE_SITE = 'https://squire-tech.vercel.app/public'
 
 async function fetchProjets() {
     
