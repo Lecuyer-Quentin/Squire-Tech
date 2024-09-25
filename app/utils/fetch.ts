@@ -2,7 +2,7 @@ import Projet, { ProjetProps } from '../Model/Projet';
 import Service, { ServiceProps } from '../Model/Service';
 import Formation, { FormationProps } from '../Model/Formation';
 
-const RACINE_SITE = process.env.NEXT_PUBLIC_API_URL;
+const RACINE_SITE = 'https://squire-tech.vercel.app'
 
 async function fetchProjets() {
     
