@@ -71,6 +71,7 @@
       @apply border-border;
     }
     body {
+
       display: flex;
       flex-direction: column;
       align-items: center;
