@@ -687,12 +687,12 @@
                       {
                         "id": "0",
                         "title": "Frontend",
-                        "description": "JavaScript. React. Next.js. PHP"
+                        "description": "JavaScript. React. Nextjs. PHP"
                       },
                       {
                         "id": "1",
                         "title": "Backend",
-                        "description": "Node.js. PHP."
+                        "description": "Nodejs. PHP."
                       },
                       {
                         "id": "2",

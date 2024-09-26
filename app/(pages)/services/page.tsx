@@ -2,6 +2,7 @@ import { fetchServices } from "@/app/utils/fetch";
 import ServiceModel from "@/app/Model/Service";
 import Title from "@/app/components/title";
 
+
 export default function Services () {
     const services = fetchServices() as Promise<ServiceModel[]>;
 
