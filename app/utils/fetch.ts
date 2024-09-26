@@ -5,43 +5,83 @@ import Formation, { FormationProps } from '../Model/Formation';
 
 
 
-const RACINE_SITE = process.env.NEXT_PUBLIC_API_URL 
+const RACINE_SITE = process.env.NEXT_PUBLIC_API_URL || process.env.LOCAL_PUBLIC_SITE_URL;
 
 async function fetchProjets() {
-    
-    const response = await fetch(`${RACINE_SITE}/data.json`,
-    {
-        method: 'GET',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        next: {
-            revalidate: 3600
-        }
-    });
-    
-    if(!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
-    }
+    try {
+        const response = await fetch(`${RACINE_SITE}/data.json`, {
+            method: 'GET',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            next: {
+                revalidate: 3600,
+            },
+        });
 
-    const data = await response.json();
-    if (data.projects) {
-        return data.projects.toReversed().map((project: ProjetProps) => new Projet(
-            {
-                id: project.id, 
-                name: project.name, 
+        if (!response.ok) {
+            console.error(`Failed to fetch projects: ${response.status} ${response.statusText}`);
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+
+        const data = await response.json();
+        console.log("Fetched data:", data); // Log the fetched data
+
+        if (data.projects) {
+            return data.projects.toReversed().map((project: ProjetProps) => new Projet({
+                id: project.id,
+                name: project.name,
                 description: project.description,
                 images: project.images,
-                date: new Date(project.date), 
+                date: new Date(project.date),
                 task: project.task,
                 tech: project.tech,
                 link: project.link,
-                url: project.url
-            } as ProjetProps
-        ));
+                url: project.url,
+            } as ProjetProps));
+        }
+        return [];
+    } catch (error) {
+        console.error("Error fetching projects:", error);
+        return []; // Return an empty array on error
     }
-    return [];
 }
+
+//async function fetchProjets() {
+//    
+//    const response = await fetch(`${RACINE_SITE}/data.json`,
+//    {
+//        method: 'GET',
+//        headers: {
+//            'Content-Type': 'application/json'
+//        },
+//        next: {
+//            revalidate: 3600
+//        }
+//    });
+//    
+//    if(!response.ok) {
+//        throw new Error(`HTTP error! status: ${response.status}`);
+//    }
+//
+//    const data = await response.json();
+//    if (data.projects) {
+//        return data.projects.toReversed().map((project: ProjetProps) => new Projet(
+//            {
+//                id: project.id, 
+//                name: project.name, 
+//                description: project.description,
+//                images: project.images,
+//                date: new Date(project.date), 
+//                task: project.task,
+//                tech: project.tech,
+//                link: project.link,
+//                url: project.url
+//            } as ProjetProps
+//        ));
+//    }
+//    return [];
+//}
 
 async function fetchProjet(id: number) {
     const response = await fetch(`${RACINE_SITE}/data.json`,
