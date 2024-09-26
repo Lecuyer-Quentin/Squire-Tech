@@ -5,7 +5,7 @@ import Formation, { FormationProps } from '../Model/Formation';
 
 
 
-const RACINE_SITE = "http://localhost:3000/api" || process.env.RACINE_SITE;
+const RACINE_SITE = process.env.RACINE_SITE;
 
 async function fetchProjets() {
     try {
