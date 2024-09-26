@@ -5,15 +5,15 @@ import Formation, { FormationProps } from '../Model/Formation';
 
 
 
-const RACINE_SITE = process.env.NEXT_PUBLIC_API_URL || process.env.LOCAL_PUBLIC_SITE_URL;
+const RACINE_SITE = "http://localhost:3000/api" || process.env.RACINE_SITE;
 
 async function fetchProjets() {
     try {
         const response = await fetch(`${RACINE_SITE}/data.json`, {
-           // method: 'GET',
-           // headers: {
-           //     'Content-Type': 'application/json',
-           // },
+            method: 'GET',
+            headers: {
+                'Content-Type': 'application/json',
+            },
             next: {
                 revalidate: 3600,
             },
