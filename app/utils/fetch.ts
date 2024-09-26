@@ -5,7 +5,7 @@ import Formation, { FormationProps } from '../Model/Formation';
 
 
 
-const RACINE_SITE = process.env.NEXT_PUBLIC_API_URL ? process.env.NEXT_PUBLIC_API_URL : process.env.LOCAL_PUBLIC_SITE_URL;
+const RACINE_SITE = process.env.NEXT_PUBLIC_API_URL 
 
 async function fetchProjets() {
     
