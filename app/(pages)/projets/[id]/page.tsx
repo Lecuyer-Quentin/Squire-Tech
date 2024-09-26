@@ -6,7 +6,7 @@ export const dynamicParams = true;
 export async function generateStaticParams() {
     const projets = await fetchProjets();
     return projets.map((projet: ProjetProps) => ({
-        params: { id: projet.id } // Ensure ID is correctly retrieved
+        params: { id: projet.id.toString } // Ensure ID is correctly retrieved
     }));
 }
 
