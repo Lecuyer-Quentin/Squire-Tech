@@ -3,8 +3,9 @@ import Services from "./components/services";
 import LastProjets from "./components/last_projets";
 import HomeHero from "./components/home_hero";
 import Quote from "./components/quote";
+import { fetchServices, fetchLastProjets } from "./utils/fetch";
 
-export default function Home() {
+export default async function Home() {
   const quotes = [
       {
         "id": "0",
@@ -23,6 +24,10 @@ export default function Home() {
       },
     ];
 
+    const servicesData = await fetchServices(); // Ajuste cette fonction pour qu'elle soit asynchrone
+    const lastProjetsData = await fetchLastProjets(4); // Idem
+
+
   return (
     <>
       <section>
@@ -31,7 +36,7 @@ export default function Home() {
       </section>
 
       <section>
-        <Services />
+        {/*<Services data={servicesData}/>*/}
         {quotes && quotes[1] && (<Quote id={quotes[1].id} content={quotes[1].content} author={quotes[1].author} />)}
       </section>
 
@@ -41,7 +46,7 @@ export default function Home() {
       </section>
 
       <section>
-        <LastProjets />
+        {/*<LastProjets data={lastProjetsData}/>*/}
       </section>
     </>
   );
