@@ -2,14 +2,14 @@ import Projet, { ProjetProps } from "@/app/Model/Projet";
 import { fetchProjet, fetchProjets } from "@/app/utils/fetch";
 import ProjetModel from "@/app/Model/Projet";
 
-export const dynamicParams = true;
-
-export async function generateStaticParams() {
-    const projets = await fetchProjets();
-    return projets.map((projet : ProjetProps) => ({
-        params: { id: projet.id }
-    }));
-}
+//export const dynamicParams = true;
+//
+//export async function generateStaticParams() {
+//    const projets = await fetchProjets();
+//    return projets.map((projet : ProjetProps) => ({
+//        params: { id: projet.id }
+//    }));
+//}
 
 export async function generateMetadata( { params } : { params: { id : number } }) {
     const { id } = params;

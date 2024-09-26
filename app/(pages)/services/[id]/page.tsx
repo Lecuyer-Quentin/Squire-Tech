@@ -1,14 +1,14 @@
 import { fetchService, fetchServices } from "@/app/utils/fetch";
 import ServiceModel, { ServiceProps } from "@/app/Model/Service";
 
-export const dynamicParams = true;
-
-export async function generateStaticParams() {
-    const services = await fetchServices();
-    return services.map((service : ServiceProps) => ({
-        params: { id: service.id }
-    }));
-}
+//export const dynamicParams = true;
+//
+//export async function generateStaticParams() {
+//    const services = await fetchServices();
+//    return services.map((service : ServiceProps) => ({
+//        params: { id: service.id }
+//    }));
+//}
 
 export async function generateMetadata( { params } : { params: { id : number } }) {
     const { id } = params;
