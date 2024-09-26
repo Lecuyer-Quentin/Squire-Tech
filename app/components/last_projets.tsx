@@ -1,10 +1,9 @@
-import Projet, { ProjetProps } from "../Model/Projet";
-import { fetchLastProjets } from "../utils/fetch";
+import Projet from "../Model/Projet";
 import Title from "./title";
 import CTA_btn from "../components/button/cta_btn";
 
-const LastProjets = async () => {
-    const projets = await fetchLastProjets(4); // Attends la résolution de la promesse
+const LastProjets = ({data}: {data: Projet[]}) => {
+    //const projets = await fetchLastProjets(4); // Attends la résolution de la promesse
     const cta_btn = <CTA_btn href="/projets">Voir tous les projets</CTA_btn>;
     const title = `Derniers projets, réalisés avec passion`;
 
@@ -13,8 +12,8 @@ const LastProjets = async () => {
             <Title title={title} />
 
             <article className="flex flex-row flex-wrap items-center justify-center gap-4">
-                {projets.length > 0 ? (
-                    projets.map((projet: Projet) => projet.render_home()) // Rends les projets
+                {data.length > 0 ? (
+                    data.map((projet: Projet) => projet.render_home()) // Rends les projets
                 ) : (
                     <p>Chargement des projets...</p> // Message de chargement si aucun projet
                 )}

@@ -2,8 +2,8 @@ import { fetchServices } from "../utils/fetch";
 import ServiceModel from "../Model/Service";
 import Title from "./title";
 
-const Services = async () => {
-  const services = await fetchServices(); // Attend la résolution de la promesse
+const Services = ({data}: {data: ServiceModel[]}) => {
+  //const services = await fetchServices(); // Attend la résolution de la promesse
   const title = `Quelque soit votre besoin, Nous avons une réponse pour vous`;
 
   return (
@@ -11,8 +11,8 @@ const Services = async () => {
       <Title title={title} />
 
       <div className="w-full flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-4">
-        {services.length > 0 ? (
-          services.map((service: ServiceModel) => (
+        {data.length > 0 ? (
+          data.map((service: ServiceModel) => (
             service.renderServiceCard()// Ajoute une clé pour chaque service
           ))
         ) : (

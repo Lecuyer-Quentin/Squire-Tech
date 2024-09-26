@@ -36,17 +36,17 @@ export default async function Home() {
       </section>
 
       <section>
-        {/*<Services data={servicesData}/>*/}
+        <Services data={servicesData}/>
         {quotes && quotes[1] && (<Quote id={quotes[1].id} content={quotes[1].content} author={quotes[1].author} />)}
       </section>
 
       <section >
-        <Intro />
+        {/*<Intro />*/}
         {quotes && quotes[2] && (<Quote id={quotes[2].id} content={quotes[2].content} author={quotes[2].author} />)}
       </section>
 
       <section>
-        {/*<LastProjets data={lastProjetsData}/>*/}
+        <LastProjets data={lastProjetsData}/>
       </section>
     </>
   );
