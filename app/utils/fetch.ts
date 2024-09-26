@@ -2,11 +2,14 @@ import Projet, { ProjetProps } from '../Model/Projet';
 import Service, { ServiceProps } from '../Model/Service';
 import Formation, { FormationProps } from '../Model/Formation';
 
-const RACINE_SITE = 'https://squire-tech.vercel.app/public'
+
+
+
+const RACINE_SITE = process.env.NODE_ENV === 'production' ? process.env.NEXT_PUBLIC_API_URL : process.env.LOCAL_PUBLIC_API_URL;
 
 async function fetchProjets() {
     
-    const response = await fetch(`${RACINE_SITE}/data/data.json`,
+    const response = await fetch(`${RACINE_SITE}/data.json`,
     {
         method: 'GET',
         headers: {
@@ -41,7 +44,7 @@ async function fetchProjets() {
 }
 
 async function fetchProjet(id: number) {
-    const response = await fetch(`${RACINE_SITE}/data/data.json`,
+    const response = await fetch(`${RACINE_SITE}/data.json`,
     {
         method: 'GET',
         headers: {
@@ -76,7 +79,7 @@ async function fetchProjet(id: number) {
 }
 
 async function fetchLastProjets(limit: number) {
-    const response = await fetch(`${RACINE_SITE}/data/data.json`,
+    const response = await fetch(`${RACINE_SITE}/data.json`,
     {
         method: 'GET',
         headers: {
@@ -111,7 +114,7 @@ async function fetchLastProjets(limit: number) {
 }
 
 async function fetchServices(){
-    const res = await fetch(`${RACINE_SITE}/data/data.json`,
+    const res = await fetch(`${RACINE_SITE}/data.json`,
         {
             method: 'GET',
             headers: {
@@ -144,7 +147,7 @@ async function fetchServices(){
 }
 
 async function fetchService(id: number) {
-    const res = await fetch(`${RACINE_SITE}/data/data.json`,
+    const res = await fetch(`${RACINE_SITE}/data.json`,
         {
             method: 'GET',
             headers: {
@@ -174,7 +177,7 @@ async function fetchService(id: number) {
 }
 
 async function fetchFormations(){
-    const res = await fetch(`${RACINE_SITE}/data/data.json`,
+    const res = await fetch(`${RACINE_SITE}/data.json`,
         {
             method: 'GET',
             headers: {
@@ -204,7 +207,7 @@ async function fetchFormations(){
 }
 
 async function fetchAllData(){
-    const res = await fetch(`${RACINE_SITE}/data/data.json`,
+    const res = await fetch(`${RACINE_SITE}/data.json`,
         {
             method: 'GET',
             headers: {
