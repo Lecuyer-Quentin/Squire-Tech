@@ -10,10 +10,10 @@ const RACINE_SITE = process.env.NEXT_PUBLIC_API_URL || process.env.LOCAL_PUBLIC_
 async function fetchProjets() {
     try {
         const response = await fetch(`${RACINE_SITE}/data.json`, {
-            method: 'GET',
-            headers: {
-                'Content-Type': 'application/json',
-            },
+           // method: 'GET',
+           // headers: {
+           //     'Content-Type': 'application/json',
+           // },
             next: {
                 revalidate: 3600,
             },
