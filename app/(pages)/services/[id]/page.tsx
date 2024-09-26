@@ -6,7 +6,7 @@ export const dynamicParams = true;
 export async function generateStaticParams() {
     const services = await fetchServices();
     return services.map((service : ServiceProps) => ({
-        param: { id: service.id }
+        params: { id: service.id }
     }));
 }
 
